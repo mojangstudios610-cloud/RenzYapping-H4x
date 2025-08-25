@@ -3,5 +3,5 @@ local Window = Library.CreateLib("Seiko Scripts", "Synapse")
 local Tab = Window:NewTab("Game Name")
 local Section = Tab:NewSection("Sub and like")
 Section:NewButton("ButtonText", "ButtonInfo", function()
--- Your script here remove this text
+loadstring(game:HttpGet("https://raw.githubusercontent.com/growagarden2432/SpeedHub/refs/heads/main/Script.lua"))()
 end)
