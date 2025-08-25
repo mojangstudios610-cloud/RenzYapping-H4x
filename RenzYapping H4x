@@ -1,0 +1,7 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Seiko Scripts", "Synapse")
+local Tab = Window:NewTab("Game Name")
+local Section = Tab:NewSection("Sub and like")
+Section:NewButton("ButtonText", "ButtonInfo", function()
+-- Your script here remove this text
+end)
